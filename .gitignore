@@ -1,0 +1,6 @@
+node_modules/
+.env
+gmail-credentials.json
+gmail-token.json
+outputs/
+uploads/
