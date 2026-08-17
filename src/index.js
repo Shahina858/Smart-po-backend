@@ -21,6 +21,7 @@ app.use('/api/products', require('./routes/products'));
 app.use('/api/customers', require('./routes/customers'));
 app.use('/api/pricing', require('./routes/pricing'));
 app.use('/api/stock', require('./routes/stock'));
+app.use('/api/reports', require('./routes/reports'));
 
 app.get('/api/health', (req, res) => {
   res.json({ status: 'ok', message: 'Smart PO Backend running' });
